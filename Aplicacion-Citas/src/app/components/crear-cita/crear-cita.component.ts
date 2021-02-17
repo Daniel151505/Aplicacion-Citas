@@ -36,7 +36,15 @@ export class CrearCitaComponent implements OnInit {
 
       }
 
+      this.resetCampos()
   }
 
+  resetCampos(){
+    this.nombre = ''
+    this.fecha = ''
+    this.hora = ''
+    this.sintomas = ''
+
+  }
 
 }
