@@ -19,4 +19,24 @@ export class CrearCitaComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  agregarCita(){
+    if (this.nombre == "" ||this.fecha == "" || this.hora == "" || this.sintomas == "" ) {
+     this.formularioIncorrecto = true
+      return 
+    }
+
+    this.formularioIncorrecto= false
+
+    // Creando objeto para enviarselo al padre
+      const Cita = {
+        nombre: this.nombre,
+        fecha: this.fecha,
+        hora: this.hora,
+        sintomas: this.sintomas
+
+      }
+
+  }
+
+
 }
