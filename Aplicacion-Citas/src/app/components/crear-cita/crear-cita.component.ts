@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output,EventEmitter} from '@angular/core';
 
 @Component({
   selector: 'app-crear-cita',
@@ -13,6 +13,8 @@ export class CrearCitaComponent implements OnInit {
   sintomas = " "
 
   formularioIncorrecto = false
+
+  @Output() nuevaCita= new EventEmitter<any>()
 
   constructor() { }
 
@@ -35,7 +37,7 @@ export class CrearCitaComponent implements OnInit {
         sintomas: this.sintomas
 
       }
-
+      this.nuevaCita.emit(Cita)
       this.resetCampos()
   }
 
