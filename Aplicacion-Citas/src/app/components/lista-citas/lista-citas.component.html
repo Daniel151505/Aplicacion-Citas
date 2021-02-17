@@ -1,5 +1,7 @@
-<div class="card">
+<div class="card bg-light" *ngIf="listadoCitas.length === 0" >
     <div class="card-body">
-        <h3>Listado de Citas</h3>
+        <h5 class="card-title text-center">
+            No hay citas para mostrar
+        </h5>
     </div>
 </div>
