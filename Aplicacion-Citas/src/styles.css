@@ -7,3 +7,11 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
 }
+
+.letra {
+    font-family: 'Acme', sans-serif;
+    font-family: 'Capriola', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}   
+
