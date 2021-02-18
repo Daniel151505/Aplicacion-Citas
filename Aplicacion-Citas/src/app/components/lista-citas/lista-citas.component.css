@@ -4,3 +4,8 @@
 span {
     font-weight: 600;
 }
+
+.boton {
+    background-color:red;
+    border-radius: 10px;
+}
