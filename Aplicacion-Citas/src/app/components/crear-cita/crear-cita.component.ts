@@ -7,10 +7,10 @@ import { Component, OnInit, Output,EventEmitter} from '@angular/core';
 })
 export class CrearCitaComponent implements OnInit {
 
-  nombre = " "
-  fecha = " "
-  hora = " "
-  sintomas = " "
+  nombre = ''
+  fecha = ''
+  hora = ''
+  sintomas = ''
 
   formularioIncorrecto = false
 
