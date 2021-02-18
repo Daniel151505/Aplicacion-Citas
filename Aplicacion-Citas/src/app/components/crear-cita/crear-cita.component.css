@@ -1,9 +1,15 @@
 label {
-    font-weight: 600;   
+    font-weight: 600; 
+    font-family: 'Concert One', cursive;
+    font-family: 'Ramabhadra', sans-serif;  
 }
+
+
 
 .boton {
     width: 100%;
+    background-color: green;
+    border-radius: 10px;
 }
 
 .card {
