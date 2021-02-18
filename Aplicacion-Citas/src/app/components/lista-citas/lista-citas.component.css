@@ -9,3 +9,8 @@ span {
     background-color:red;
     border-radius: 10px;
 }
+
+.letra{
+    font-family: 'Concert One', cursive;
+    font-family: 'Ramabhadra', sans-serif;  
+}
